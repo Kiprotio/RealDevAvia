@@ -1,7 +1,7 @@
 {
   "name": "Aviator Game",
   "display": "standalone",
-  "start_url": "https://github.com/Kiprotio/RealDevAvia/blob/main/AviaBust.apk",
+  "start_url": "app/AviaBust.apk",
   "short_name": "Aviator",
   "description": "Play this amazing game today.",
   "theme_color": "#555",
