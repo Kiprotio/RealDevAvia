@@ -2,7 +2,7 @@ let isAppInstalled = false;
 
 function open_install_button(btn) {
   let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  let url = "https://github.com/Kiprotio/RealDevAvia/blob/main/AviaBust.apk";
+  let url = "app/AviaBust.apk";
   if (isMobile) {
     btn.innerHTML = `<a href = '${url}' target='_blank'>Open</a>`;
   } else {
